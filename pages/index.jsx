@@ -1,8 +1,11 @@
+import { useRouter } from "next/router";
+
 export default function Home() {
+  const router = useRouter();
+
   return (
     <div className="w-full h-screen flex flex-col justify-center items-center">
-      <h1>App de mi amorcito en construcción :3</h1>
-      <p>:*</p>
+      <button onClick={() => router.push("/quiz")}>Empezar</button>
     </div>
   );
 }
