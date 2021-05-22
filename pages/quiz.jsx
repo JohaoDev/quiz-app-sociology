@@ -172,6 +172,207 @@ export default function Home() {
           "Sistema social.",
         ],
       },
+      {
+        question:
+          "M. Burawoy argumenta que “la sociología crítica es la conciencia de la sociología profesional en tanto que la sociología pública es la conciencia de la sociología práctica”. (2005, p. 206). ¿Cuál es la diferencia y la similitud entre la sociología crítica y la sociología profesional?",
+        options: [
+          "La sociología crítica (re)produce conocimiento reflexivo mientras la sociología profesional se sostiene sobre el conocimiento instrumental, pero las dos interpelan a audiencias académicas.",
+          "La sociología pública y la sociología práctica responden a audiencias extra-académicas, si bien la primer se genera conocimiento reflexivo y dialógico con estos públicos y la práctica se basa en conocimiento instrumental para sus clientes.",
+          "La sociología pública apunta audiencias de extra-académicas mientras que la sociología crítica interpela generalmente audiencias académicas, pero las dos (re)producen conocimiento reflexivo.",
+          "La sociología profesional (re)produce conocimiento práctico mientras que la sociología crítica produce conocimiento público, si bien las dos apuntan audiencias extra-académicas.",
+        ],
+        answers: [
+          "La sociología profesional (re)produce conocimiento práctico mientras que la sociología crítica produce conocimiento público, si bien las dos apuntan audiencias extra-académicas.",
+        ],
+      },
+      {
+        question:
+          "Alberto Acosta señala que los programas de estabilización y de ajuste han estado orientados a garantizar el servicio de la deuda. Junto a este objetivo explícito de dichos programas aparece el pretendido reordenamiento de la economía. ¿Cuál de las siguientes frases recoge mejor manera este planteamiento?",
+        options: [
+          "Las cartas de intención firmadas por los gobiernos sirvieron para obtener recursos para pagar la deuda externa.",
+          "La deuda externa y su servicio fue la mejor palanca para obligar al país a adoptar orientaciones neoliberales en sus políticas.",
+          "Para renegociar la deuda externa, Ecuador estaba obligado a comprometerse con las cartas de intención propuestas por los acreedores.",
+          "Más allá del pago de la deuda externa, era indispensable reordenar la visión desarrollista de la economía en una perspectiva neoliberal.",
+        ],
+        answers: [
+          "La deuda externa y su servicio fue la mejor palanca para obligar al país a adoptar orientaciones neoliberales en sus políticas.",
+        ],
+      },
+      {
+        question:
+          "Aguste Comte argumenta que el estado positivo es incompatible con el estado teológico pues este (re)produce conocimiento absoluto. Durante el estado metafísico sufre una estrategia epistemológica necesaria aunque insuficiente para superar el conocimiento absoluto. Según Comte ¿cuál es la mejor forma de caracterizar esta estrategia epistemológica o “tipo de conocimiento” propio del estado metafísico?",
+        options: [
+          "Critica positiva/científica.",
+          "Critica negativa/destructiva.",
+          "Conocimiento ficticio.",
+          "Conocimiento absoluto.",
+        ],
+        answers: ["Critica negativa/destructiva."],
+      },
+      {
+        question:
+          "Juan Maiguashca y Lisa North citan el siguiente párrafo de E. P Thomson: “Las clases y la conciencia de clase son siempre las ultimas, no las primeras, fases del proceso real histórico. Pero, si implementamos la categoría estática de clases, o si obtenemos esta categoría de un modelo teórico previo de una totalidad estructurada, supondremos que la clase esta instantáneamente presente (derivada como una proyección geométrica, de las relaciones de producción) y de ello la lucha de clases” ¿Cuál es el significado de este párrafo para el análisis que realiza sobre el Velasquismo?",
+        options: [
+          "El Velasquismo expresaba la conciencia de las clases terratenientes y del partido conservador.",
+          "No puede analizar el Velasquismo en términos de expresiones de clases o de lucha de estas.",
+          "Las clases capitalistas modernas estaban en formación durante el periodo velasquista y, por ende, se debe analizar cómo se expresaba la lucha de estas a través del Velasquismo.",
+          "El Velasquismo muestra la lucha de los sectores populares en su impulso para expresar como actores políticos de derecho propio.",
+        ],
+        answers: [
+          "Las clases capitalistas modernas estaban en formación durante el periodo velasquista y, por ende, se debe analizar cómo se expresaba la lucha de estas a través del Velasquismo.",
+        ],
+      },
+      {
+        question:
+          "La tipología de las ciudades que desarrolla Weber para analizar “la dominación no legitima” a través de la historia del desarrollo urbano ayuda a identificar elementos comunes a diferentes tipos de ciudades. Entre estos están el ser asentamientos de mercado relacionando esta caracterización al concepto griego de Oikos- y el reconocimiento que las ciudades realmente existentes como tipos mixtos. Weber identifica una especificidad histórica en ciudades modernas occidentales como Londres, París, o Berlín. ¿Cuál es esta especificidad relacionada con la economía urbana de las metrópolis modernas?",
+        options: [
+          "La centralidad del capital financiero internacional.",
+          "Su naturaleza de ciudades industriales.",
+          "El estatuto jurídico-político de estos burgos.",
+          "Su naturaleza de ciudades de consumidores y de productores a la vez.",
+        ],
+        answers: ["La centralidad del capital financiero internacional."],
+      },
+      {
+        question:
+          "La última obra de Emilie Durkheim titulada Las Formas Elementales de la Vida Religiosa (1912) argumenta que, desde una perspectiva sociológica, no hay religiones falsas pues todas responden, aunque de maneras diferentes, a formas de organización social históricamente determinadas. Es decir, para la sociología el estudio de las religiones y su devenir histórico se convierte en la investigación científica respecto de:",
+        options: [
+          "Las formas esenciales que dominan nuestra vida intelectual y que nos ayuda a comprehender y dar sentido a lo que existe realmente en la sociedad y el universo.",
+          "Las formas elementales de la capacidad que tienen los grupos humanos para (re)crear la “sociedad” que constantemente aparecen en la vida religiosa y que revelan la naturaleza de los vínculos sociales fundamentales.",
+          "Una de las diferentes etapas en el desarrollo del intelecto humano, como argumento Auguste Comte en su ley de los 3 estados y que cita Durkheim en la introducción de su estudio.",
+          "Las formas elementales del entendimiento humano pues son mero reflejo de los hechos, los cuales existen independientemente de estas categorías y por lo tanto explican las creencias religiosas en última instancia.",
+        ],
+        answers: [
+          "Las formas elementales de la capacidad que tienen los grupos humanos para (re)crear la “sociedad” que constantemente aparecen en la vida religiosa y que revelan la naturaleza de los vínculos sociales fundamentales.",
+        ],
+      },
+      {
+        question:
+          "A partir del análisis de datos demográficos y electorales, los autores J. Maiguashca y L.North muestran algunas tendencias claras, especialmente para los tres últimos velasquismos (1952, 1960 1965). Indique cuales de las siguientes afirmaciones corresponden a los autores:",
+        options: [
+          "La base principal de apoyo a Velasco fueron las provincias de influencia conservadora, En la elección de 1968 se expresó el mayor apoyo a Velasco en Costa y Sierra, Dado el tamaño reducido del electorado hasta los años 60, las masas populares marginales no ejercieron influencia decisiva en los resultados de las elecciones.",
+          "Velasco tuvo respaldo mayoritario en la costa y provincias de la sierra norte, El velasquismo se desarrolló independientemente y en competencia con los partidos conservador y liberal, Dado el tamaño reducido del electorado hasta los años 60, las masas populares marginales no ejercieron influencia decisiva en los resultados de las elecciones.",
+          "El velasquismo se desarrolló independientemente y en competencia con los partidos conservador y liberal, En la elección de 1968 se expresó el mayor apoyo a Velasco en Costa y Sierra, 5.	Dado el tamaño reducido del electorado hasta los años 60, las masas populares marginales no ejercieron influencia decisiva en los resultados de las elecciones.",
+          "Velasco tuvo respaldo mayoritario en la costa y provincias de la sierra norte, La base principal de apoyo a Velasco fueron las provincias de influencia conservadora, 4.	En la elección de 1968 se expresó el mayor apoyo a Velasco en Costa y Sierra.",
+        ],
+        answers: [
+          "Velasco tuvo respaldo mayoritario en la costa y provincias de la sierra norte, El velasquismo se desarrolló independientemente y en competencia con los partidos conservador y liberal, Dado el tamaño reducido del electorado hasta los años 60, las masas populares marginales no ejercieron influencia decisiva en los resultados de las elecciones.",
+        ],
+      },
+      {
+        question:
+          "C. Wrigth Mills propone el concepto de “imaginación sociológica” como “la cualidad mental esencial para percibir la interrelación del hombre y la sociedad, de la biografía y de la historia, del yo y el mundo” ¿Quiénes necesitan desarrollar esta cualidad mental?",
+        options: [
+          "Las y los profesores de sociología para disponer de una herramienta pedagógica que introduzca a los estudiantes a la promesa de la sociología como ciencia de la sociedad.",
+          "Los y las estudiantes de sociología para entender conceptos clave básicos como estructura, historia, biografía y agencia.",
+          "Las personas que se sienten atrapadas al no entender que ni la vida de un individuo ni la historia de la sociedad pueden entenderse sin comprender ambas cosas.",
+          "Los y las investigadoras sociales para desarrollar marcos teóricos que permitan guiar y concluir con éxitos sus investigaciones.",
+        ],
+        answers: [
+          "Las personas que se sienten atrapadas al no entender que ni la vida de un individuo ni la historia de la sociedad pueden entenderse sin comprender ambas cosas.",
+        ],
+      },
+      {
+        question:
+          "Un argumento influyente del Manifiesto del Partido Comunista (Marx & Engels) y parte importante del núcleo duro del programa de investigación del materialismo histórico (Buraway,1990) es: “la historia de todas las sociedades hasta nuestros días es la historia de la lucha de clases “. Según los autores, ¿Cuál es la especificidad de la lucha de clases que caracteriza a la modernidad capitalista a diferencia de sus formas anteriores?",
+        options: [
+          "Se simplifican las contradicciones de clase debido a la tendencia en las sociedades modernas de una creciente polarización en dos grandes clases antagónicas: burguesía/propietarios y proletariado/asalariados.",
+          "Se expande geográficamente a medida en que la burguesía es la única clase en la historia que logra superar las fronteras nacionales y proteccionismo de los estados-nación así como consolidar un mercado mundial.",
+          "La lucha de clases implica relaciones de opresión y explotación suavizadas por el aparecimiento del trabajo asalariado en reemplazo de viejas formas de esclavitud.",
+          "La lucha de clases se vuelve más compleja en términos del aparecimiento de nuevos estamentos sociales como la clase media.",
+        ],
+        answers: [
+          "Se simplifican las contradicciones de clase debido a la tendencia en las sociedades modernas de una creciente polarización en dos grandes clases antagónicas: burguesía/propietarios y proletariado/asalariados.",
+        ],
+      },
+      {
+        question:
+          "Marx argumentaba en carta a su amigo Arnold Ruge que la tarea del científico social no consiste en adelantar dogmáticamente el futuro sino investigar críticamente. Pues “si construir el futuro y asentar todo definitivamente no es nuestro asunto, es más claro aun lo que, al presente, debemos llevar a cabo: me refiero a la crítica despiadada de todo lo existente” (Marx, 1843). ¿A qué se refiere Marx cuando argumentaba que la teoría sociológica critica debe ser despiadada?",
+        options: [
+          "La teoría sociológica crítica debe adoptar posiciones políticas radicales para poder producir investigación revolucionaria que sea despiadada con cualquiera que se le oponga.",
+          "La teoría sociológica crítica debe delinear leyes que permitan identificar verdades absolutas así producir una ciencia incuestionable.",
+          "La teoría sociológica crítica no debe temer los resultados a los que conduzca su investigación socio histórica aun que esta tienda a generar conflictos en los poderosos.",
+          "La teoría sociológica crítica no debe admitir ningún tipo de cuestionamiento que no sea el resultado de la tendencia de anticipar el futuro inherente a la razón científica.",
+        ],
+        answers: [
+          "La teoría sociológica crítica no debe temer los resultados a los que conduzca su investigación socio histórica aun que esta tienda a generar conflictos en los poderosos.",
+        ],
+      },
+      {
+        question:
+          "El programa de investigación del materialismo histórico (Burawoy, 1990) nace de la crítica de la economía política clásica (Marx & Engels). Dicha critica, en términos metodológicos, pone énfasis en la importancia de la historia para la investigación científico-social y rechaza la naturalización de las relaciones sociales de producción que aparecen en el trabajo de los economistas ortodoxos. ¿en qué consiste el peligro de la naturalización en el análisis de las relaciones de producción?",
+        options: [
+          "Marx critica a los capitalistas ya que éstos no difieren sustancialmente de los señores feudales, particularmente en lo que respecta a su relación con los y las trabajadoras que producen sus riquezas.",
+          "Marx crítica a los capitalistas que minimizan el desarrollo histórico de instituciones sociales y económicas que no sean propias de la lógica de la acumulación capitalista pues esto implica perder la oportunidad de considerar otros modos de producción posible.",
+          "Marx critica a los economistas que caracterizan a las instituciones sociales pasadas como “artificiales” y a las instituciones de la modernidad capitalista como “naturales” a medida en que estás aparecen como “superiores” y representarían una suerte de “fin de la historia”.",
+          "Marx crítica a los economistas que caracterizan a las instituciones económicas como “naturales” mientras que relegan el resto de instituciones sociales a la calidad de “artificial” pues así se cierra toda posibilidad de entender las relaciones entre economía y sociedad.",
+        ],
+        answers: [
+          "Marx critica a los economistas que caracterizan a las instituciones sociales pasadas como “artificiales” y a las instituciones de la modernidad capitalista como “naturales” a medida en que estás aparecen como “superiores” y representarían una suerte de “fin de la historia”.",
+        ],
+      },
+      {
+        question:
+          "Pierre Bourdieu define el habitus como un sistema de disposiciones para la práctica, la acción, el pensamiento y la sensibilidad. Son estructuras de mediana y larga duración que operan de modo inconsciente en los agentes sociales y les permite tener acciones sensatas y regulares. En este sentido el habitus hace posible.",
+        options: [
+          "La ruptura con un orden socio histórico establecido.",
+          "Que los agentes operen conscientemente en sus prácticas cotidianas.",
+          "La continuidad de una tradición cultural y social.",
+          "Que se equivoque en el sentido de las acciones reflexivas que realizan.",
+        ],
+        answers: ["La continuidad de una tradición cultural y social."],
+      },
+      {
+        question:
+          "Michael Lowy argumenta que pese al sentido común generalizado de que las teorías sociológicas clásicas de Weber y de Marx son irreconciliables, el trabajo de estos dos teóricos clásicos tenía importantes puntos de encuentro en su evaluación critica del desarrollo del capitalismo ¿cuál es la mejor forma de distinguir entre lo que Lowy llama la “critica inmanente” que caracteriza al trabajo de Marx?",
+        options: [
+          "La crítica de Marx pretende ser inmanente, en la medida en que es revolucionaria y se constituye como herramienta política de la clase obrera, a diferencia de la crítica trascendente de Weber construida sobre la neutralidad valorativa que caracterizaba su construcción de un método científico social.",
+          "La crítica de Marx es trascendente porque logra vincular la objetividad científico social con el compromiso político en tanto que Weber no es capaz de superar la crítica negativa o inmanente.",
+          "La crítica de Marx pretende se inmanente en la medida en que está hecha desde el posicionamiento estructural de la fuerza social real de la clase obrera y su potencial transformador, a diferencia de la crítica trascendente de Weber construida sobre el deber-ser asociado a la racionalidad con arreglo a fines.",
+          "La crítica de Weber es trascendente porque logra mantener la objetividad científico social mientras que los compromisos políticos de Marx le impiden realmente superar una crítica negativa o inmanente.",
+        ],
+        answers: [
+          "La crítica de Marx pretende ser inmanente, en la medida en que es revolucionaria y se constituye como herramienta política de la clase obrera, a diferencia de la crítica trascendente de Weber construida sobre la neutralidad valorativa que caracterizaba su construcción de un método científico social.",
+        ],
+      },
+      {
+        question:
+          "Beigel considera que las teorías de la dependencia establecieron un campo de debate que desplegó dimensiones específicas. En cierto modo la heterogeneidad de aquellas teorías es producto de las trayectorias que esos aspectos particulares tuvieron en la discusión sobre la situación de dependencia. ¿Cuáles son esas problemáticas especificas? Escoge tres de la lista:",
+        options: [
+          "La contraposición entre un enfoque de clase y un enfoque nacional.",
+          "La persistencia de un enfoque desarrollista en la noción de dependencia y la especificidad del desarrollo capitalista.",
+          "La originalidad de la teoría de dependencia o la posibilidad de que ella este contenida en la teoría del imperialismo.",
+          "El antagonismo estructural entre el sector tradicional y el sector moderno.",
+          "La discusión acerca de la necesidad de un estado regulador o interventor.",
+        ],
+        answers: [
+          "La contraposición entre un enfoque de clase y un enfoque nacional.",
+        ],
+      },
+      {
+        question:
+          "Según Connel ¿cuál de las siguientes disciplinas es dominante actualmente dentro del campo de las ciencias sociales?",
+        options: [
+          "Antropología.",
+          "Sociología.",
+          "Economía.",
+          "Ciencias políticas",
+        ],
+        answers: ["Economía."],
+      },
+      {
+        question:
+          "Alberto Acosta señalo algunas dificultades que provocó la dolarización, aprobada por el gobierno de Jaime Mahuad, en el año 2000, en la economía del país. Señale cuales de las siguientes opciones dan cuenta de estas dificultades indicadas por el autor:",
+        options: [
+          "Pérdida de competitividad y Aumento de endeudamiento de sectores productivos privados.",
+          "Aumento de endeudamiento de sectores productivos privados y Estabilidad macroeconómica ficticia.",
+          "Pérdida de competitividad y Estabilidad macroeconómica ficticia.",
+          "Encarecimiento de los precios internos y Aumento de endeudamiento de sectores productivos privados.",
+        ],
+        answers: [
+          "Pérdida de competitividad y Estabilidad macroeconómica ficticia.",
+        ],
+      },
     ]),
     [actualQuestion, SetActualQuestion] = useState(),
     router = useRouter();
