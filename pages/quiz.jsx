@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import Swal from "sweetalert2";
 
 export default function Home() {
-  const [questions, SetQuestions] = useState([
+  const [questions] = useState([
       {
         question:
           "¿Cuáles de los siguientes elementos definen a la Teoría Crítica según Max Horkheimer? escoge dos:",
@@ -373,6 +373,69 @@ export default function Home() {
           "Pérdida de competitividad y Estabilidad macroeconómica ficticia.",
         ],
       },
+      {
+        question:
+          "A. Cueva anota que los procesos de transformación y crisis de los estados oligárquicos fueron marcados por su diversidad y heterogeneidad. ¿En qué países latinoamericanos el fin de los estados oligárquicos se dio por la irrupción revolucionaria de las masas en la vida pública?",
+        options: [
+          "Argentina y Colombia.",
+          "México y Argentina.",
+          "Colombia y Bolivia.",
+          "México y Bolivia.",
+        ],
+        answers: ["México y Bolivia."],
+      },
+      {
+        question:
+          "A juicio de A. Cueva ¿Cuál sería el talón de Aquiles de los procesos de industrialización de América Latina?",
+        options: [
+          "Que la mayoría de ellos inició después de la Segunda Guerra Mundial.",
+          "Que no lograron superar su dependencia de los ingresos del sector exportador.",
+          "Que no fueron acompañados de un proceso político democrático.",
+          "Que sólo se pusieron en marcha de forma espontánea gracias a la crisis de 1929.",
+        ],
+        answers: [
+          "Que no lograron superar su dependencia de los ingresos del sector exportador.",
+        ],
+      },
+      {
+        question:
+          "Alberto Acosta señala algunas dificultades que provocó la dolarización, aprobada por el gobierno de Jamil Mahuad, en el año 2000, en la economía del país. Señale cuáles de las siguientes opciones dan cuenta de esas dificultades indicadas por el autor:",
+        options: [
+          "Encarecimiento de los precios internos y  Aumento del endeudamiento de sectores productivos privados.",
+          "Aumento del endeudamiento de sectores productivos privados y Estabilidad macroeconómica ficticia",
+          "Pérdida de competitividad y Aumento del endeudamiento de sectores productivos privados.",
+          "Pérdida de competitividad y Estabilidad macroeconómica ficticia.",
+        ],
+        answers: [
+          "Pérdida de competitividad y Estabilidad macroeconómica ficticia.",
+        ],
+      },
+      {
+        question:
+          "Alberto Acosta señala que los programas de estabilización y de ajuste han estado orientados a garantizar el servicio de la deuda. Junto a este objetivo explícito de dichos programas aparece el pretendido reordenamiento de la economía ¿Cuál de las siguientes frases recoge de mejor manera este planteamiento?",
+        options: [
+          "Más allá del pago de la deuda externa, era indispensable reordenar la visión desarrollista de la economía en una perspectiva neoliberal.",
+          "Las cartas de intención firmadas por los gobiernos sirvieron para obtener recursos para pagar la deuda externa.",
+          "La deuda externa y su servicio fue la mejor palanca para obligar al país a adoptar orientaciones neoliberales en sus políticas.",
+          "Para renegociar la deuda externa, Ecuador estaba obligado a comprometerse con las cartas de intención propuestas por los acreedores.",
+        ],
+        answers: [
+          "La deuda externa y su servicio fue la mejor palanca para obligar al país a adoptar orientaciones neoliberales en sus políticas.",
+        ],
+      },
+      {
+        question:
+          "Alberto Acosta señala que los programas de estabilización y de ajuste han estado orientados a garantizar el servicio de la deuda. Junto a este objetivo explícito de dichos programas aparece el pretendido reordenamiento de la economía ¿Cuál de las siguientes frases recoge de mejor manera este planteamiento?",
+        options: [
+          "Más allá del pago de la deuda externa, era indispensable reordenar la visión desarrollista de la economía en una perspectiva neoliberal.",
+          "Las cartas de intención firmadas por los gobiernos sirvieron para obtener recursos para pagar la deuda externa.",
+          "La deuda externa y su servicio fue la mejor palanca para obligar al país a adoptar orientaciones neoliberales en sus políticas.",
+          "Para renegociar la deuda externa, Ecuador estaba obligado a comprometerse con las cartas de intención propuestas por los acreedores.",
+        ],
+        answers: [
+          "La deuda externa y su servicio fue la mejor palanca para obligar al país a adoptar orientaciones neoliberales en sus políticas.",
+        ],
+      },
     ]),
     [actualQuestion, SetActualQuestion] = useState(),
     router = useRouter();
@@ -480,77 +543,89 @@ export default function Home() {
   };
 
   return (
-    <div className="w-full h-screen flex flex-col justify-center items-center lg:px-32 px-4">
-      <h1 className="py-6">Pregunta N° ?</h1>
-      <div>
-        <h1 className="py-6">
-          {actualQuestion ? actualQuestion.question : null}
-        </h1>
-        {actualQuestion
-          ? actualQuestion.answers.length == 1
-            ? actualQuestion.options.map((element, index) => (
-                <div key={index} className="flex items-center py-1">
-                  <input
-                    type="radio"
-                    name="option"
-                    value={element}
-                    id={index}
-                  />
-                  <p className="ml-2">{element}</p>
-                </div>
-              ))
-            : actualQuestion.options.map((element, index) => (
-                <div key={index} className="flex items-center py-1">
-                  <input
-                    type="checkbox"
-                    name="option"
-                    value={element}
-                    id={index}
-                  />
-                  <p className="ml-2">{element}</p>
-                </div>
-              ))
-          : null}
+    <div className="flex h-screen w-full justify-center align-middle text-white">
+      <div
+        className="absolute top-0 w-full h-full bg-cover"
+        style={{
+          backgroundImage: "url('/bg-app1.jpg')",
+        }}
+      >
+        <span className="w-full h-full absolute opacity-75 bg-black"></span>
       </div>
-      <div className="flex py-6">
-        <div className="m-3">
-          <button
-            onClick={() => checkAnswers()}
-            className="bg-white text-gray-800 font-bold rounded border-b-2 border-green-500 hover:border-green-600 hover:bg-green-500 hover:text-white shadow-md py-2 px-6 inline-flex items-center"
-          >
-            <span className="mr-2">Continuar</span>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-            >
-              <path
-                fill="currentcolor"
-                d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"
-              ></path>
-            </svg>
-          </button>
-        </div>
-        <div className="m-3">
-          <button
-            onClick={() => router.push("/")}
-            className="bg-white text-gray-800 font-bold rounded border-b-2 border-red-500 hover:border-red-600 hover:bg-red-500 hover:text-white shadow-md py-2 px-6 inline-flex items-center"
-          >
-            <span className="mr-2">Salir</span>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="h-5 w-5"
-              viewBox="0 0 20 20"
-              fill="currentColor"
-            >
-              <path
-                fillRule="evenodd"
-                d="M6.707 4.879A3 3 0 018.828 4H15a3 3 0 013 3v6a3 3 0 01-3 3H8.828a3 3 0 01-2.12-.879l-4.415-4.414a1 1 0 010-1.414l4.414-4.414zm4 2.414a1 1 0 00-1.414 1.414L10.586 10l-1.293 1.293a1 1 0 101.414 1.414L12 11.414l1.293 1.293a1 1 0 001.414-1.414L13.414 10l1.293-1.293a1 1 0 00-1.414-1.414L12 8.586l-1.293-1.293z"
-                clipRule="evenodd"
-              />
-            </svg>
-          </button>
+      <div className="container relative mx-auto">
+        <div className="w-full lg:px-32 px-4 ml-auto mr-auto ">
+          <h1 className="py-6 uppercase text-2xl font-bold">Sociology</h1>
+          <div>
+            <h1 className="py-6 text-justify">
+              {actualQuestion ? actualQuestion.question : null}
+            </h1>
+            {actualQuestion
+              ? actualQuestion.answers.length == 1
+                ? actualQuestion.options.map((element, index) => (
+                    <div key={index} className="flex items-center py-1">
+                      <input
+                        type="radio"
+                        name="option"
+                        value={element}
+                        id={index}
+                      />
+                      <p className="ml-2">{element}</p>
+                    </div>
+                  ))
+                : actualQuestion.options.map((element, index) => (
+                    <div key={index} className="flex items-center py-1">
+                      <input
+                        type="checkbox"
+                        name="option"
+                        value={element}
+                        id={index}
+                      />
+                      <p className="ml-2">{element}</p>
+                    </div>
+                  ))
+              : null}
+          </div>
+          <div className="flex py-6">
+            <div className="m-3">
+              <button
+                onClick={() => checkAnswers()}
+                className="bg-white text-gray-800 font-bold rounded border-b-2 border-green-500 hover:border-green-600 hover:bg-green-500 hover:text-white shadow-md py-2 px-6 inline-flex items-center"
+              >
+                <span className="mr-2">Continuar</span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill="currentcolor"
+                    d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"
+                  ></path>
+                </svg>
+              </button>
+            </div>
+            <div className="m-3">
+              <button
+                onClick={() => router.push("/")}
+                className="bg-white text-gray-800 font-bold rounded border-b-2 border-red-500 hover:border-red-600 hover:bg-red-500 hover:text-white shadow-md py-2 px-6 inline-flex items-center"
+              >
+                <span className="mr-2">Salir</span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-5 w-5"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                >
+                  <path
+                    fillRule="evenodd"
+                    d="M6.707 4.879A3 3 0 018.828 4H15a3 3 0 013 3v6a3 3 0 01-3 3H8.828a3 3 0 01-2.12-.879l-4.415-4.414a1 1 0 010-1.414l4.414-4.414zm4 2.414a1 1 0 00-1.414 1.414L10.586 10l-1.293 1.293a1 1 0 101.414 1.414L12 11.414l1.293 1.293a1 1 0 001.414-1.414L13.414 10l1.293-1.293a1 1 0 00-1.414-1.414L12 8.586l-1.293-1.293z"
+                    clipRule="evenodd"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
         </div>
       </div>
     </div>
