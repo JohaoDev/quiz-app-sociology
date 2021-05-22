@@ -140,6 +140,38 @@ export default function Home() {
         ],
         answers: ["Externalización, Institucionalización, Internalización."],
       },
+      {
+        question:
+          "¿Cuáles de los siguientes elementos son claves para una sociología renovada, según Boaventura de Sousa Santos? Selecciona dos:",
+        options: [
+          "Sociología de las ausencias.",
+          "Sociología crítica.",
+          "Sociología científica.",
+          "Sociología de las emergencias.",
+          "Sociología pública.",
+          "Sociología marxista.",
+        ],
+        answers: [
+          "Sociología de las ausencias.",
+          "Sociología de las emergencias.",
+        ],
+      },
+      {
+        question:
+          "El sistema de acción social consiste, según Parsons, en tres sistemas interdependientes ¿Cuáles son? Selecciona tres:",
+        options: [
+          "Sistema social.",
+          "Sistema de personalidad.",
+          "Sistema funcional.",
+          "Sistema capitalista.",
+          "Sistema cultural.",
+        ],
+        answers: [
+          "Sistema de personalidad.",
+          "Sistema cultural.",
+          "Sistema social.",
+        ],
+      },
     ]),
     [actualQuestion, SetActualQuestion] = useState(),
     router = useRouter();
