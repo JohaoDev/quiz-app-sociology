@@ -107,7 +107,7 @@ export default function Home() {
             if (counter == answersLength) {
               Swal.fire({
                 title: "Correcto :D",
-                text: `${responses[0]}`,
+                text: `La motivación es lo que te pone en marcha, el hábito es lo que hace que sigas (Jim Ryun).`,
                 icon: "success",
                 showCancelButton: false,
                 confirmButtonColor: "#3085d6",
@@ -129,14 +129,6 @@ export default function Home() {
                 confirmButtonText: "Volver",
               });
             }
-          } else {
-            Swal.fire({
-              position: "center",
-              icon: "error",
-              title: "Incorrecto :c, vuelve a intentarlo.",
-              showConfirmButton: false,
-              timer: 1500,
-            });
           }
         });
       });
