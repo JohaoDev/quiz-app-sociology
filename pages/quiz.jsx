@@ -436,6 +436,135 @@ export default function Home() {
           "La deuda externa y su servicio fue la mejor palanca para obligar al país a adoptar orientaciones neoliberales en sus políticas.",
         ],
       },
+      {
+        question:
+          "Algunos analistas económicos consideran que Ecuador no ha aplicado medidas neoliberales en profundidad y que, por lo tanto, no puede hablarse de que haya habido neoliberalismo en el país. Alberto Acosta, adoptando un índice desarrollado por Morley, Machado y Pettinato para medir el alcance de la reforma neoliberal en varios países de América Latina, con corte al año 1995, muestra que Ecuador ha sobrepasado el promedio regional en algunas de las medidas neoliberales más significativas. Indique ¿Cuáles de las siguientes son las medidas neoliberales que Ecuador aplicación con mayor profundidad que el promedio de países latinoamericanos?",
+        options: [
+          "Desregulación del mercado financiero y Privatización de empresas.",
+          "Liberalización comercial y Desregulación del mercado financiero.",
+          "Privatización de empresas y Indice global promedio de todas las reformas neoliberales.",
+          "Reforma Tributaria y Liberalización comercial.",
+        ],
+        answers: [
+          "Liberalización comercial y Desregulación del mercado financiero.",
+        ],
+      },
+      {
+        question:
+          "A partir del análisis de datos demográficos y electorales, los autores J. Maiguashca y L. North muestran algunas tendencias claras, especialmente para los tres últimos velasquismos (1952, 1960, 1968). Indique cuáles de las siguientes afirmaciones corresponden a los autores:",
+        options: [
+          "Velasco tuvo respaldo mayoritario en la costa y provincias de la sierra norte, El velasquismo se desarrolló independientemente y en competencia con los partidos conservador y liberal, Dado el reducido tamaño del electorado hasta los años 60, las masas populares marginales no ejercieron influencia decisiva en los resultados de las elecciones.",
+          "El velasquismo se desarrolló independientemente y en competencia con los partidos conservador y liberal, En la elección de 1968 se expresó el mayor apoyo a Velasco en Costa y Sierra, Dado el reducido tamaño del electorado hasta los años 60, las masas populares marginales no ejercieron influencia decisiva en los resultados de las elecciones.",
+          "La base principal de apoyo de Velasco fueron las provincias de influencia conservadora, En la elección de 1968 se expresó el mayor apoyo a Velasco en Costa y Sierra, Dado el reducido tamaño del electorado hasta los años 60, las masas populares marginales no ejercieron influencia decisiva en los resultados de las elecciones.",
+          "Velasco tuvo respaldo mayoritario en la costa y provincias de la sierra norte, La base principal de apoyo de Velasco fueron las provincias de influencia conservadora, En la elección de 1968 se expresó el mayor apoyo a Velasco en Costa y Sierra.",
+        ],
+        answers: [
+          "Velasco tuvo respaldo mayoritario en la costa y provincias de la sierra norte, El velasquismo se desarrolló independientemente y en competencia con los partidos conservador y liberal, Dado el reducido tamaño del electorado hasta los años 60, las masas populares marginales no ejercieron influencia decisiva en los resultados de las elecciones.",
+        ],
+      },
+      {
+        question:
+          "¿Cuáles de los siguientes elementos fueron característicos del Estado oligárquico en América Latina, según A Cueva?",
+        options: [
+          "Represión contra los elementos democrático burgueses, Consolidación del poder del Estado, Expropiación de los productores directos.",
+          "Represión contra los elementos democrático burgueses, Expropiación de los productores directos, Respeto por los territorios indígenas.",
+          "Supresión total del poder de los terratenientes feudales, Consolidación del poder del Estado, Expropiación de los productores directos.",
+          "Represión contra los elementos democrático burgueses, Supresión total del poder de los terratenientes feudales, Consolidación del poder del Estado.",
+        ],
+        answers: [
+          "Represión contra los elementos democrático burgueses, Consolidación del poder del Estado, Expropiación de los productores directos.",
+        ],
+      },
+      {
+        question:
+          "De acuerdo a Cueva ¿En qué periodo de la historia de América Latina hubo serios esfuerzos por desarrollar un sector capitalista de estado como promotor del desarrollo nacional, asumiendo actividades económicas estratégicas que la iniciativa privada era incapaz de emprender?",
+        options: [
+          "Finales del SXX",
+          "Inicios del SXX",
+          "Mediados del SXX",
+          "Finales del S.XIX",
+        ],
+        answers: ["Mediados del SXX"],
+      },
+      {
+        question:
+          "De acuerdo a Mark Thurner ¿Cuáles serían las consecuencias más notables de las reforma liberales para la población indígena?",
+        options: [
+          "Disminución de las haciendas, colectivización del tributo y crecimiento de las tierras comunales.",
+          "Abolición de las haciendas, crecimiento del tributo, colectivización de tierras.",
+          "Privatización de tierras comunales, abolición del tributo y crecimiento de las haciendas.",
+          "Colectivización de tierras, aumento del tributo y crecimiento de las haciendas.",
+        ],
+        answers: [
+          "Privatización de tierras comunales, abolición del tributo y crecimiento de las haciendas.",
+        ],
+      },
+      {
+        question:
+          "El economista John Williamson acuñó el término Consenso de Washington para referirse a un conjunto de medidas ortodoxas neoliberales, aplicadas de manera reiterativa por organismos multilaterales, gobiernos y conglomerados transnacionales, las que forman parte de una estrategia global para la reestructuración capitalista de la economía y que se aplicaron a partir de la década de los ochenta del siglo XX en todo el mundo ¿Cuáles de las siguientes medidas forman parte de dicho Consenso?",
+        options: [
+          "Inversión estatal en industrias estratégicas, Flexibilización laboral, Apertura a inversión extranjera.",
+          "Inversión estatal en industrias estratégicas, Control de precios de productos básicos, Apertura a inversión extranjera.",
+          "Flexibilización laboral, Apertura a inversión extranjera, Austeridad y disciplina fiscal.",
+          "Flexibilización laboral, Control de precios de productos básicos, Austeridad y disciplina fiscal.",
+        ],
+        answers: [
+          "Flexibilización laboral, Apertura a inversión extranjera, Austeridad y disciplina fiscal.",
+        ],
+      },
+      {
+        question:
+          "Juan Maiguashca y Liisa North citan el siguiente párrafo de E. P. Thomson: 'La clase y la conciencia de clase son siempre las últimas, no las primeras, fases del proceso real histórico. Pero, si empleamos la categoría estática de clase, o si obtenemos esta categoría de un modelo teórico previo de una totalidad estructurada, supondremos que la clase está instantáneamente presente (derivada como una proyección geométrica, de las relaciones de producción) y de ello la lucha de clases' ¿Cuál es el significado de este párrafo para el análisis que realizan los autores sobre el Velasquismo?",
+        options: [
+          "No puede analizarse el Velasquismo en términos de expresiones de clases o de lucha de estas.",
+          "El Velasquismo expresaba la conciencia de la clase terrateniente y del partido conservador.",
+          "El Velasquismo muestra la lucha de los sectores populares en su impulso para expresarse como actores políticos por derecho propio.",
+          "Las clases capitalistas modernas estaban en formación durante el periodo velasquista y, por ende, se debe analizar cómo se expresaba la lucha de éstas a través del Velasquismo.",
+        ],
+        answers: [
+          "Las clases capitalistas modernas estaban en formación durante el periodo velasquista y, por ende, se debe analizar cómo se expresaba la lucha de éstas a través del Velasquismo.",
+        ],
+      },
+      {
+        question:
+          "¿Qué ocurrió con los intermediarios étnicos (Caciques y Kuracas) durante los gobiernos republicanos, de acuerdo a lo planteado por Mark Thurner?",
+        options: [
+          "Fueron eximidos del tributo a las haciendas.",
+          "Fueron reconocidos e integrados como funcionarios al Estado.",
+          "Mantuvieron los fueros y prestaron servicio militar.",
+          "Fueron debilitados y sustituidos por funcionarios locales.",
+        ],
+        answers: ["Fueron debilitados y sustituidos por funcionarios locales."],
+      },
+      {
+        question:
+          "¿Qué ocurrió de acuerdo a Mark Thurner con la demografía de la población indígena en siglo XIX?",
+        options: [
+          "Creció en términos absolutos Venezuela, Colombia y Panamá.",
+          "Se redujo en términos absolutos en todo el continente.",
+          "Creció en términos relativos todo el continente.",
+          "Creció en términos absolutos en Bolivia, Perú y Ecuador.",
+        ],
+        answers: ["Creció en términos absolutos en Bolivia, Perú y Ecuador."],
+      },
+      {
+        question:
+          "Señale las frases que considere verdaderas en cuanto al marco interpretativo del velasquismo y su época que proponen los autores J. Maiguashca y L. North~.",
+        options: [
+          "El discurso velasquista expresa el carácter caudillista y clientelar de este líder, Velasco expresaba la alianza entre la burguesía comercial costeña y los terratenientes serranos, Velasco buscaba la unidad nacional y el progreso social como resultado de la ampliación de los servicios públicos.",
+          "El discurso velasquista expresa el carácter caudillista y clientelar de este líder, Los grupos dominantes y dominados del Ecuador se hallaban fraccionados regionalmente y en ese marco surgió el velasquismo, Velasco expresaba la alianza entre la burguesía comercial costeña y los terratenientes serranos.",
+          "Los grupos dominantes y dominados del Ecuador se hallaban fraccionados regionalmente y en ese marco surgió el velasquismo, La ideología de Velasco representa una respuesta al legado histórico cultural del país y al del espacio normativo producido por la desestructuración social, Velasco buscaba la unidad nacional y el progreso social como resultado de la ampliación de los servicios públicos.",
+          "La ideología de Velasco representa una respuesta al legado histórico cultural del país y al del espacio normativo producido por la desestructuración social, Velasco expresaba la alianza entre la burguesía comercial costeña y los terratenientes serranos, Velasco buscaba la unidad nacional y el progreso social como resultado de la ampliación de los servicios públicos.",
+        ],
+        answers: [
+          "Los grupos dominantes y dominados del Ecuador se hallaban fraccionados regionalmente y en ese marco surgió el velasquismo, La ideología de Velasco representa una respuesta al legado histórico cultural del país y al del espacio normativo producido por la desestructuración social, Velasco buscaba la unidad nacional y el progreso social como resultado de la ampliación de los servicios públicos.",
+        ],
+      },
+      {
+        question: "",
+        options: ["", "", "", ""],
+        answers: [""],
+      },
     ]),
     [actualQuestion, SetActualQuestion] = useState(),
     router = useRouter();
@@ -545,18 +674,20 @@ export default function Home() {
   return (
     <div className="flex h-screen w-full justify-center align-middle text-white">
       <div
-        className="absolute top-0 w-full h-full bg-cover"
+        className="absolute w-full h-screen bg-cover"
         style={{
           backgroundImage: "url('/bg-app1.jpg')",
         }}
       >
         <span className="w-full h-full absolute opacity-75 bg-black"></span>
       </div>
-      <div className="container relative mx-auto">
-        <div className="w-full lg:px-32 px-4 ml-auto mr-auto ">
-          <h1 className="py-6 uppercase text-2xl font-bold">Sociology</h1>
+      <div className="relative">
+        <div className="w-full lg:px-32 px-6 ml-auto mr-auto ">
+          <h1 className="py-6 uppercase text-2xl font-bold text-center">
+            Sociology
+          </h1>
           <div>
-            <h1 className="py-6 text-justify">
+            <h1 className="py-6 text-justify text-xl">
               {actualQuestion ? actualQuestion.question : null}
             </h1>
             {actualQuestion
@@ -569,7 +700,7 @@ export default function Home() {
                         value={element}
                         id={index}
                       />
-                      <p className="ml-2">{element}</p>
+                      <p className="ml-2 text-sm">{element}</p>
                     </div>
                   ))
                 : actualQuestion.options.map((element, index) => (
@@ -580,7 +711,7 @@ export default function Home() {
                         value={element}
                         id={index}
                       />
-                      <p className="ml-2">{element}</p>
+                      <p className="ml-2 text-sm">{element}</p>
                     </div>
                   ))
               : null}
