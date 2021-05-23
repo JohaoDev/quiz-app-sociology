@@ -609,9 +609,11 @@ export default function Home() {
   }, []);
 
   let loadGame = async () => {
+    SetLoading(true);
     if (questions.length !== 0) {
       let indexQuestion = await getRandomQuestion(0, questions.length - 1);
       SetActualQuestion(questions[indexQuestion]);
+      SetLoading(false);
     } else {
       console.log("Questions Not Found");
     }
@@ -711,12 +713,12 @@ export default function Home() {
   };
 
   return (
-    <div className="w-full lg:px-32 px-6 ml-auto mr-auto ">
-      <h1 className="py-6 uppercase text-2xl font-bold text-center">
+    <div className="w-full h-screen lg:px-32 px-6 ml-auto mr-auto flex flex-col justify-center items-center">
+      <h1 className="py-6 uppercase lg:text-2xl text-xl font-bold text-center">
         Sociology
       </h1>
       <div>
-        <h1 className="py-6 text-justify text-xl">
+        <h1 className="py-6 text-justify lg:text-xl text-sm">
           {actualQuestion ? actualQuestion.question : null}
         </h1>
         {actualQuestion
@@ -745,7 +747,7 @@ export default function Home() {
               ))
           : null}
       </div>
-      <div className="flex py-6">
+      <div className="flex flex-wrap py-6">
         <div className="m-3">
           <button
             onClick={() => checkAnswers()}
@@ -780,6 +782,39 @@ export default function Home() {
             )}
           </button>
         </div>
+
+        <div className="m-3">
+          <button
+            onClick={() => loadGame()}
+            className="bg-white text-gray-800 font-bold rounded border-b-2 border-yellow-500 hover:border-yellow-600 hover:bg-yellow-500 hover:text-white shadow-md py-2 px-6 inline-flex items-center"
+          >
+            <span className="mr-2">Cambiar pregunta</span>
+            {loading ? (
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                className="animate-spin"
+              >
+                <path
+                  fill="currentcolor"
+                  d="M6 2v6h.01L6 8.01 10 12l-4 4 .01.01H6V22h12v-5.99h-.01L18 16l-4-4 4-3.99-.01-.01H18V2H6zm10 14.5V20H8v-3.5l4-4 4 4zm-4-5l-4-4V4h8v3.5l-4 4z"
+                ></path>
+              </svg>
+            ) : (
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-5 w-5"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path d="M5 4a1 1 0 00-2 0v7.268a2 2 0 000 3.464V16a1 1 0 102 0v-1.268a2 2 0 000-3.464V4zM11 4a1 1 0 10-2 0v1.268a2 2 0 000 3.464V16a1 1 0 102 0V8.732a2 2 0 000-3.464V4zM16 3a1 1 0 011 1v7.268a2 2 0 010 3.464V16a1 1 0 11-2 0v-1.268a2 2 0 010-3.464V4a1 1 0 011-1z" />
+              </svg>
+            )}
+          </button>
+        </div>
+
         <div className="m-3">
           <button
             onClick={() => router.push("/")}
