@@ -567,6 +567,7 @@ export default function Home() {
       },
     ]),
     [actualQuestion, SetActualQuestion] = useState(),
+    [loading, SetLoading] = useState(false),
     router = useRouter();
 
   useEffect(() => {
@@ -589,6 +590,8 @@ export default function Home() {
   };
 
   let checkAnswers = async () => {
+    SetLoading(true);
+
     let inputCollection = document.getElementsByName("option"),
       responses = [];
 
@@ -619,6 +622,7 @@ export default function Home() {
           confirmButtonText: "Continuar",
         }).then((result) => {
           if (result.isConfirmed) {
+            SetLoading(false);
             loadGame();
           }
         });
@@ -629,7 +633,7 @@ export default function Home() {
           title: "Incorrecto :c, vuelve a intentarlo.",
           showConfirmButton: false,
           timer: 1500,
-        });
+        }).then(() => SetLoading(false));
       }
     } else {
       let counter = 0,
@@ -651,6 +655,7 @@ export default function Home() {
                 confirmButtonText: "Continuar",
               }).then((result) => {
                 if (result.isConfirmed) {
+                  SetLoading(false);
                   loadGame();
                 }
               });
@@ -663,7 +668,7 @@ export default function Home() {
                 confirmButtonColor: "#3085d6",
                 cancelButtonColor: "#d33",
                 confirmButtonText: "Volver",
-              });
+              }).then(() => SetLoading(false));
             }
           }
         });
@@ -722,18 +727,33 @@ export default function Home() {
                 onClick={() => checkAnswers()}
                 className="bg-white text-gray-800 font-bold rounded border-b-2 border-green-500 hover:border-green-600 hover:bg-green-500 hover:text-white shadow-md py-2 px-6 inline-flex items-center"
               >
-                <span className="mr-2">Continuar</span>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    fill="currentcolor"
-                    d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"
-                  ></path>
-                </svg>
+                <span className="mr-2">Comprobar</span>
+                {loading ? (
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    className="animate-spin"
+                  >
+                    <path
+                      fill="currentcolor"
+                      d="M6 2v6h.01L6 8.01 10 12l-4 4 .01.01H6V22h12v-5.99h-.01L18 16l-4-4 4-3.99-.01-.01H18V2H6zm10 14.5V20H8v-3.5l4-4 4 4zm-4-5l-4-4V4h8v3.5l-4 4z"
+                    ></path>
+                  </svg>
+                ) : (
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      fill="currentcolor"
+                      d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"
+                    ></path>
+                  </svg>
+                )}
               </button>
             </div>
             <div className="m-3">
