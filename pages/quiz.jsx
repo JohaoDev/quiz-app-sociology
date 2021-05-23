@@ -561,9 +561,43 @@ export default function Home() {
         ],
       },
       {
-        question: "",
-        options: ["", "", "", ""],
-        answers: [""],
+        question:
+          "Si bien A. Cueva no está del todo de acuerdo con la categoría periodo populista, reconoce algunos elementos comunes a las experiencias de Argentina y Brasil conceptualizadas generalmente como populistas ¿Cuáles de los siguientes elementos fueron típicos de ambos procesos?",
+        options: [
+          "Arbitraje estatal de tipo bonapartista, El sector burgués-industrial impuso su hegemonía al sector agroexportador, El Estado respetó por completo la autonomía política del proletariado.",
+          "El sector burgués-industrial impuso su hegemonía al sector agroexportador, El Estado respetó por completo la autonomía política del proletariado, Se desarrollaron elementos anti oligárquicos y nacionalistas en materia económica.",
+          "El sector burgués-industrial impuso su hegemonía al sector agroexportador, Se desarrollaron elementos anti oligárquicos y nacionalistas en materia económica, El populismo de ambos países puede ser concebido como una simple manipulación de las masas.",
+          "Arbitraje estatal de tipo bonapartista, El sector burgués-industrial impuso su hegemonía al sector agroexportador, Se desarrollaron elementos anti oligárquicos y nacionalistas en materia económica.",
+        ],
+        answers: [
+          "Arbitraje estatal de tipo bonapartista, El sector burgués-industrial impuso su hegemonía al sector agroexportador, Se desarrollaron elementos anti oligárquicos y nacionalistas en materia económica.",
+        ],
+      },
+      {
+        question:
+          "De las siguientes afirmaciones ¿cuál es la que mejor refleja la posición de Keynes respecto al problema de la racionalidad de los agentes económicos?",
+        options: [
+          "La racionalidad es una ficción; ningún agente económico posee racionalidad alguna.",
+          "La racionalidad económica consiste siempre en la maximización de los ingresos.",
+          "Hay diferentes tipos de racionalidad económica según el agente que se trate.",
+          "Todos los agentes económicos poseen el mismo tipo de racionalidad.",
+        ],
+        answers: [
+          "Hay diferentes tipos de racionalidad económica según el agente que se trate.",
+        ],
+      },
+      {
+        question:
+          "De las siguientes ideas, cuáles son centrales en la teoría de J.M. Keynes:",
+        options: [
+          "El nivel de actividad económica está determinado por la 'demanda efectiva', Los incrementos en el gasto gubernamental ayudan a la reducción del desempleo, El libre mercado no tiende al equilibrio.",
+          "El nivel de actividad económica está determinado por la 'demanda efectiva', Los incrementos en el gasto gubernamental son interpretados como gastos improductivos, El libre mercado no tiende al equilibrio.",
+          "El nivel de la actividad económica está determinado por la ley de la oferta y la demanda, El nivel de actividad económica está determinado por la 'demanda efectiva', Los incrementos en el gasto gubernamental ayudan a la reducción del desempleo.",
+          "El nivel de la actividad económica está determinado por la ley de la oferta y la demanda, El nivel de actividad económica está determinado por la 'demanda efectiva', El libre mercado no tiende al equilibrio.",
+        ],
+        answers: [
+          "El nivel de actividad económica está determinado por la 'demanda efectiva', Los incrementos en el gasto gubernamental ayudan a la reducción del desempleo, El libre mercado no tiende al equilibrio.",
+        ],
       },
     ]),
     [actualQuestion, SetActualQuestion] = useState(),
@@ -677,106 +711,94 @@ export default function Home() {
   };
 
   return (
-    <div className="flex h-screen w-full justify-center align-middle text-white">
-      <div
-        className="absolute w-full h-screen bg-cover"
-        style={{
-          backgroundImage: "url('/bg-app1.jpg')",
-        }}
-      >
-        <span className="w-full h-full absolute opacity-75 bg-black"></span>
-      </div>
-      <div className="relative">
-        <div className="w-full lg:px-32 px-6 ml-auto mr-auto ">
-          <h1 className="py-6 uppercase text-2xl font-bold text-center">
-            Sociology
-          </h1>
-          <div>
-            <h1 className="py-6 text-justify text-xl">
-              {actualQuestion ? actualQuestion.question : null}
-            </h1>
-            {actualQuestion
-              ? actualQuestion.answers.length == 1
-                ? actualQuestion.options.map((element, index) => (
-                    <div key={index} className="flex items-center py-1">
-                      <input
-                        type="radio"
-                        name="option"
-                        value={element}
-                        id={index}
-                      />
-                      <p className="ml-2 text-sm">{element}</p>
-                    </div>
-                  ))
-                : actualQuestion.options.map((element, index) => (
-                    <div key={index} className="flex items-center py-1">
-                      <input
-                        type="checkbox"
-                        name="option"
-                        value={element}
-                        id={index}
-                      />
-                      <p className="ml-2 text-sm">{element}</p>
-                    </div>
-                  ))
-              : null}
-          </div>
-          <div className="flex py-6">
-            <div className="m-3">
-              <button
-                onClick={() => checkAnswers()}
-                className="bg-white text-gray-800 font-bold rounded border-b-2 border-green-500 hover:border-green-600 hover:bg-green-500 hover:text-white shadow-md py-2 px-6 inline-flex items-center"
-              >
-                <span className="mr-2">Comprobar</span>
-                {loading ? (
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    className="animate-spin"
-                  >
-                    <path
-                      fill="currentcolor"
-                      d="M6 2v6h.01L6 8.01 10 12l-4 4 .01.01H6V22h12v-5.99h-.01L18 16l-4-4 4-3.99-.01-.01H18V2H6zm10 14.5V20H8v-3.5l4-4 4 4zm-4-5l-4-4V4h8v3.5l-4 4z"
-                    ></path>
-                  </svg>
-                ) : (
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      fill="currentcolor"
-                      d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"
-                    ></path>
-                  </svg>
-                )}
-              </button>
-            </div>
-            <div className="m-3">
-              <button
-                onClick={() => router.push("/")}
-                className="bg-white text-gray-800 font-bold rounded border-b-2 border-red-500 hover:border-red-600 hover:bg-red-500 hover:text-white shadow-md py-2 px-6 inline-flex items-center"
-              >
-                <span className="mr-2">Salir</span>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-5 w-5"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                >
-                  <path
-                    fillRule="evenodd"
-                    d="M6.707 4.879A3 3 0 018.828 4H15a3 3 0 013 3v6a3 3 0 01-3 3H8.828a3 3 0 01-2.12-.879l-4.415-4.414a1 1 0 010-1.414l4.414-4.414zm4 2.414a1 1 0 00-1.414 1.414L10.586 10l-1.293 1.293a1 1 0 101.414 1.414L12 11.414l1.293 1.293a1 1 0 001.414-1.414L13.414 10l1.293-1.293a1 1 0 00-1.414-1.414L12 8.586l-1.293-1.293z"
-                    clipRule="evenodd"
+    <div className="w-full lg:px-32 px-6 ml-auto mr-auto ">
+      <h1 className="py-6 uppercase text-2xl font-bold text-center">
+        Sociology
+      </h1>
+      <div>
+        <h1 className="py-6 text-justify text-xl">
+          {actualQuestion ? actualQuestion.question : null}
+        </h1>
+        {actualQuestion
+          ? actualQuestion.answers.length == 1
+            ? actualQuestion.options.map((element, index) => (
+                <div key={index} className="flex items-center py-1">
+                  <input
+                    type="radio"
+                    name="option"
+                    value={element}
+                    id={index}
                   />
-                </svg>
-              </button>
-            </div>
-          </div>
+                  <p className="ml-2 text-sm">{element}</p>
+                </div>
+              ))
+            : actualQuestion.options.map((element, index) => (
+                <div key={index} className="flex items-center py-1">
+                  <input
+                    type="checkbox"
+                    name="option"
+                    value={element}
+                    id={index}
+                  />
+                  <p className="ml-2 text-sm">{element}</p>
+                </div>
+              ))
+          : null}
+      </div>
+      <div className="flex py-6">
+        <div className="m-3">
+          <button
+            onClick={() => checkAnswers()}
+            className="bg-white text-gray-800 font-bold rounded border-b-2 border-green-500 hover:border-green-600 hover:bg-green-500 hover:text-white shadow-md py-2 px-6 inline-flex items-center"
+          >
+            <span className="mr-2">Comprobar</span>
+            {loading ? (
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                className="animate-spin"
+              >
+                <path
+                  fill="currentcolor"
+                  d="M6 2v6h.01L6 8.01 10 12l-4 4 .01.01H6V22h12v-5.99h-.01L18 16l-4-4 4-3.99-.01-.01H18V2H6zm10 14.5V20H8v-3.5l4-4 4 4zm-4-5l-4-4V4h8v3.5l-4 4z"
+                ></path>
+              </svg>
+            ) : (
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  fill="currentcolor"
+                  d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"
+                ></path>
+              </svg>
+            )}
+          </button>
+        </div>
+        <div className="m-3">
+          <button
+            onClick={() => router.push("/")}
+            className="bg-white text-gray-800 font-bold rounded border-b-2 border-red-500 hover:border-red-600 hover:bg-red-500 hover:text-white shadow-md py-2 px-6 inline-flex items-center"
+          >
+            <span className="mr-2">Salir</span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-5 w-5"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+            >
+              <path
+                fillRule="evenodd"
+                d="M6.707 4.879A3 3 0 018.828 4H15a3 3 0 013 3v6a3 3 0 01-3 3H8.828a3 3 0 01-2.12-.879l-4.415-4.414a1 1 0 010-1.414l4.414-4.414zm4 2.414a1 1 0 00-1.414 1.414L10.586 10l-1.293 1.293a1 1 0 101.414 1.414L12 11.414l1.293 1.293a1 1 0 001.414-1.414L13.414 10l1.293-1.293a1 1 0 00-1.414-1.414L12 8.586l-1.293-1.293z"
+                clipRule="evenodd"
+              />
+            </svg>
+          </button>
         </div>
       </div>
     </div>
