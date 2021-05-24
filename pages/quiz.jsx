@@ -599,6 +599,255 @@ export default function Home() {
           "El nivel de actividad económica está determinado por la 'demanda efectiva', Los incrementos en el gasto gubernamental ayudan a la reducción del desempleo, El libre mercado no tiende al equilibrio.",
         ],
       },
+      {
+        question:
+          "El proceso de globalización, que se ha acentuado desde 1970, ha marcado una reconfiguración de las relaciones y de los flujos transfronterizos de bienes, servicios, capitales y tecnologías. Uno de los componentes más importantes que ha caracterizado el flujo de capitales en el mundo globalizado actual es el de la inversión extranjera directa (IED). ¿Cuál de las siguientes afirmaciones es más exacta para caracterizar la IED de acuerdo a la evidencia empírica expuesta por Chang?",
+        options: [
+          "Es indispensable liberar y facilitar las reglas para que exista una mayor IED especialmente en los países en desarrollo.",
+          "La IED está fundamentalmente asociada a los procesos ilícitos y a los paraísos fiscales.",
+          "Para maximizar los beneficios que puede traer es indispensable que los países receptores, especialmente los países en desarrollo, establezcan reglas y regulaciones para la IED.",
+          "La IED es fundamentalmente beneficiosa para los países receptores.",
+        ],
+        answers: [
+          "Para maximizar los beneficios que puede traer es indispensable que los países receptores, especialmente los países en desarrollo, establezcan reglas y regulaciones para la IED.",
+        ],
+      },
+      {
+        question:
+          "El sistema financiero ha sido un sector clave para el desarrollo del capitalismo a nivel global. No obstante, dada la complejidad y diversidad de productos financieros de los últimos 30 años, especialmente los de la banca de inversión, las crisis financieras han sido más recurrentes y profundas. ¿Cuál de los siguientes factores fue uno de los principales que desencadenó la crisis financiera del 2007-2008, conocida como la crisis de los subprime o de las hipotecas?",
+        options: [
+          "El problema de las “puertas giratorias” por el cual los reguladores sienten simpatía por los procesos bajo su supervisión.",
+          "La presencia de los organismos internacionales de Bretton Woods, como el Banco Mundial y el Fondo Monetario Internacional.",
+          "El conjunto de medidas anticíclicas impulsadas por los gobiernos a nivel global.",
+          "La alta regulación del sistema financiero internacional que resta libertad para que los agentes económicos tomen las decisiones más rentables y seguras.",
+        ],
+        answers: [
+          "El problema de las “puertas giratorias” por el cual los reguladores sienten simpatía por los procesos bajo su supervisión.",
+        ],
+      },
+      {
+        question:
+          "Ha-Joon Chang define al desarrollo económico como un proceso de crecimiento económico basado en el aumento de las capacidades productivas de una economía. Seleccione loselementos enlistados a continuación que contribuyen a mejorar la capacidad productiva de un país.",
+        options: [
+          "La presencia de un Estado mínimo que deje actuar al mercado y a los agentes económicos libremente, Las innovaciones tecnológicas, Los esquemas de organización del trabajo, por ejemplo, el taylorismo y el fordismo.",
+          "Las innovaciones tecnológicas, Los esquemas de organización del trabajo, por ejemplo, el taylorismo y el fordismo, Los procesos de I+D (investigación y desarrollo) que se impulsa.",
+          "La presencia de un Estado mínimo que deje actuar al mercado y a los agentes económicos libremente, Los esquemas de organización del trabajo, por ejemplo, el taylorismo y el fordismo, El libre desarrollo de las fuerzas productivas sin intervención estatal.",
+          "Los esquemas de organización del trabajo, por ejemplo, el taylorismo y el fordismo, Los procesos de I+D (investigación y desarrollo) que se impulsa, El libre desarrollo de las fuerzas productivas sin intervención estatal.",
+        ],
+        answers: [
+          "Las innovaciones tecnológicas, Los esquemas de organización del trabajo, por ejemplo, el taylorismo y el fordismo, Los procesos de I+D (investigación y desarrollo) que se impulsa.",
+        ],
+      },
+      {
+        question:
+          "La economía neoclásica que es el enfoque actualmente dominante en economía, surge a finales del siglo XIX con la llamada revolución marginalista o utilitarista promovida por William Jevons, Carl Menger y Leon Walras, a la cual se sumará Alfred Marshall. Desde la perspectiva planteada por José Manuel Naredo, la economía neoclásica representa:",
+        options: [
+          "Una revolución científica, puesto que constituye un cambio o ruptura del paradigma imperante en la economía política clásica.",
+          "Una perspectiva integral, sistémica e histórica de los procesos económicos, en la cual el análisis de los aspectos políticos, institucionales y sociales son indispensables.",
+          "Una continuación de la economía política clásica, puesto que se mantiene una misma visión paradigmática, expresada en una ontología y orientación metodológica compartida.",
+          "Un acercamiento a los problemas del “mundo real” superando la visión idealizada de un mercado que por sí mismo, y sólo por sí mismo, actúa eficientemente.",
+        ],
+        answers: [
+          "Una continuación de la economía política clásica, puesto que se mantiene una misma visión paradigmática, expresada en una ontología y orientación metodológica compartida.",
+        ],
+      },
+      {
+        question:
+          "La racionalidad del homo economicus construida en la economía neoclásica se caracteriza por principios universales que pretenden ser objetivos y válidos para todos los individuos. Identifique dos principios que caracterizan, de acuerdo a José Manuel Naredo, al homo economicus de la economía neoclásica.",
+        options: [
+          "Los seres humanos buscan maximizar su satisfacción y felicidad, Cada individuo actúa según sus deseos lo que se expresa en las decisiones que realiza.",
+          "Cada individuo actúa según sus deseos lo que se expresa en las decisiones que realiza, Los seres humanos son seres sociales que privilegian la cooperación y el vínculo social.",
+          "Los seres humanos buscan maximizar su satisfacción y felicidad, En las decisiones que toman los individuos priman aspectos morales y éticos.",
+          "Los seres humanos son seres sociales que privilegian la cooperación y el vínculo social, En las decisiones que toman los individuos priman aspectos morales y éticos.",
+        ],
+        answers: [
+          "Los seres humanos buscan maximizar su satisfacción y felicidad, Cada individuo actúa según sus deseos lo que se expresa en las decisiones que realiza.",
+        ],
+      },
+      {
+        question:
+          "Las distintas escuelas y tradiciones de pensamiento económico construyen y sustentan su reflexión sobre una noción del sistema económico, que corresponde a la manera cómo se entiende al sistema económico y se concibe su funcionamiento. ¿Cuál es la noción del sistema económico que tiene la economía neoclásica?",
+        options: [
+          "Lo económico como un sistema mecánico y armónico.",
+          "Lo económico como un sistema complejo y abierto.",
+          "Lo económico como un subsistema inscrito dentro del sistema social que lo engloba, por lo tanto, interrelacionado con lo político, lo social y la historia.",
+          "Lo económico como un sistema marcado por el principio de incertidumbre.",
+        ],
+        answers: ["Lo económico como un sistema mecánico y armónico."],
+      },
+      {
+        question:
+          "Para Chang, la pobreza ha sido la condición humana dominante durante la mayor parte de la historia. Desde el enfoque convencional de la economía, se asocia que la pobreza depende fundamentalmente de las decisiones, capacidades y del esfuerzo que las personas realizan. No obstante, hay causas estructurales que son determinantes y en la cual los gobiernos deben intervenir. Identifique cuál de las siguientes afirmaciones corresponde a la definición de “pobreza absoluta”.",
+        options: [
+          "Corresponde a aquellas personas u hogares cuyos ingresos no les permite cubrir necesidades básicas para la supervivencia (alimentación, vivienda).",
+          "Corresponde a aquellas personas que han sido pobres por tres generaciones en sus familias.",
+          "Corresponde a aquellas personas u hogares que no pueden cubrir sus necesidades básicas (alimentación, vivienda adecuada, salud, educación, agua potable).",
+          "Corresponde a aquellas personas u hogares cuyos ingresos están por debajo del umbral – línea de pobreza establecida.",
+        ],
+        answers: [
+          "Corresponde a aquellas personas u hogares cuyos ingresos no les permite cubrir necesidades básicas para la supervivencia (alimentación, vivienda).",
+        ],
+      },
+      {
+        question:
+          "Pese a que los indicadores y las mediciones en economía no son plenamente objetivos ya que depende del enfoque o escuela de pensamiento desde la que se los construyen. Uno de los indicadores económicos más utilizados es el del Producto Interno Bruto (PIB), el cual busca identificar el valor monetario total de lo que ha producido un país en un tiempo determinado. ¿Cuál de las siguientes afirmaciones refleja de mejor manera el alcance del PIB?",
+        options: [
+          "El PIB identifica el nivel de desarrollo humano de los países en un tiempo determinado.",
+          "El PIB identifica variables sociales como los niveles de educación, salud, nutrición de los países, en un tiempo determinado.",
+          "El PIB identifica el nivel de felicidad y de bienestar de los países en un tiempo determinado.",
+          "El PIB solo valora las actividades que se tranzan en el mercado por lo que no considera la producción para el autoconsumo y las actividades de cuidado (trabajo doméstico no remunerado).",
+        ],
+        answers: [
+          "El PIB solo valora las actividades que se tranzan en el mercado por lo que no considera la producción para el autoconsumo y las actividades de cuidado (trabajo doméstico no remunerado).",
+        ],
+      },
+      {
+        question:
+          "Al pensador inglés John Locke se le considera el iniciador del liberalismo porque:",
+        options: [
+          "Consideraba que sólo aquellos individuos con un origen aristocrático tenían el derecho a ejercer el poder político.",
+          "Sostenía que todo gobierno surge de un pacto o contrato revocable entre individuos, con el propósito de proteger la vida, la libertad y la propiedad de las personas, teniendo los signatarios el derecho a retirar su confianza al gobernante y rebelarse cuando éste no cumple con su función.",
+          "Afirmaba que cada país necesita un gobierno fuerte, que sea capaz de mantener el orden y la estabilidad y evitar el agudizamiento de las contradicciones sociales.",
+          "Propuso la confirmación de un orden político basado en el libre ejercicio de las libertades ciudadanas para todos los habitantes.",
+        ],
+        answers: [
+          "Sostenía que todo gobierno surge de un pacto o contrato revocable entre individuos, con el propósito de proteger la vida, la libertad y la propiedad de las personas, teniendo los signatarios el derecho a retirar su confianza al gobernante y rebelarse cuando éste no cumple con su función.",
+        ],
+      },
+      {
+        question:
+          "Elija 4 de las características del republicanismo democrático, en auge a partir del Siglo XVIII: ",
+        options: [
+          "El ser humano es por naturaleza un animal social y político.",
+          "Ningún sistema político puede ser legítimo, conveniente o bueno si excluye la participación del pueblo en su gobierno.",
+          "Identifican el bien público con el bienestar del pueblo, entendiendo por tal a la amplia mayoría de los sectores menos beneficiados por el injusto reparto de la riqueza social.",
+          "El mejor sistema político es aquel en el cual los ciudadanos son iguales en aspectos importantes: ante la ley, y por la ausencia de toda relación de dependencia (como la que hay entre amo y esclavo) entre un ciudadano y otro.",
+          "La esencia del individuo consiste en la tendencia a defender su patrimonio y acrecentarlo.",
+          "El mejor sistema político es aquel que no interfiere ni en la libre actividad económica de los individuos ni en sus decisiones de carácter moral o religioso.",
+        ],
+        answers: [
+          "El ser humano es por naturaleza un animal social y político.",
+          "El mejor sistema político es aquel en el cual los ciudadanos son iguales en aspectos importantes: ante la ley, y por la ausencia de toda relación de dependencia (como la que hay entre amo y esclavo) entre un ciudadano y otro.",
+          "Ningún sistema político puede ser legítimo, conveniente o bueno si excluye la participación del pueblo en su gobierno.",
+          "Identifican el bien público con el bienestar del pueblo, entendiendo por tal a la amplia mayoría de los sectores menos beneficiados por el injusto reparto de la riqueza social.",
+        ],
+      },
+      {
+        question:
+          "Del listado de elementos que le presentamos, determine los cuatro (4) elementos que caracterizaban la concepción de democracia existente en la Grecia Antigua:",
+        options: [
+          "Los cargos públicos se eligen por votación de los ciudadanos o son designados por los representantes elegidos por los ciudadanos.",
+          "Democracia significa “poder del demos”.",
+          "Democracia directa.",
+          "Todos tienen el mismo derecho a opinar y tomar parte activa en la toma de decisiones, independientemente de su nivel de conocimiento.",
+          "Los cargos públicos se deciden por sorteo entre todos aquellos que tienen derechos de ciudadanía.",
+          "Democracia representativa.",
+        ],
+        answers: [
+          "Los cargos públicos se deciden por sorteo entre todos aquellos que tienen derechos de ciudadanía.",
+          "Democracia significa “poder del demos”.",
+          "Democracia directa.",
+          "Todos tienen el mismo derecho a opinar y tomar parte activa en la toma de decisiones, independientemente de su nivel de conocimiento.",
+        ],
+      },
+      {
+        question:
+          "Platón consideraba la existencia de conflictos en la sociedad como algo negativo. Para Aristóles, en relación con esta cuestión:",
+        options: [
+          "Ninguna de las anteriores.",
+          "Comparte la misma opinión que Platón, y considera que el arte del buen gobernar consiste en eliminar el conflicto.",
+          "Considera que el buen gobernante debe exacerbar los conflictos sociales, pues así se contribuye a la eliminación de los grupos sociales que promueven el conflicto y de esa manera se alcanza la estabilidad social.",
+          "El conflicto es constitutivo de las relaciones humanas y por tanto de la política; vale decir, ésta es la razón por la que su preocupación primaria no es la temática del orden sino la problemática de la gobernabilidad, donde el conflicto aparece como un a priori que no hay que no anular, sino justamente mediatizar o, en todo caso, administrar.",
+        ],
+        answers: [
+          "El conflicto es constitutivo de las relaciones humanas y por tanto de la política; vale decir, ésta es la razón por la que su preocupación primaria no es la temática del orden sino la problemática de la gobernabilidad, donde el conflicto aparece como un a priori que no hay que no anular, sino justamente mediatizar o, en todo caso, administrar.",
+        ],
+      },
+      {
+        question:
+          "El jacobinismo fue una corriente de pensamiento y acción política surgida durante la Revolución Francesa. Sus rasgos fundamentales fueron: escoge tres opciones.",
+        options: [
+          "Entendieron la democracia como conjunto de regulaciones jurídicas que aseguraban la inviolabilidad de la propiedad individual.",
+          "Desarrollaron la noción de voluntad general, que no es la suma de las voluntades individuales, sino que procede del interés común.",
+          "Defendieron la idea de que el modelo óptimo de gobierno era la monarquía constitucional, pues conjugaba el principio de la representación y la limitación de poderes con la existencia de un gobierno fuerte que pudiera manejar la conflictividad social.",
+          "Rechazaban la autonomía de la vida civil respecto a la esfera política y propugnaron la subordinación de la primera a la segunda, conforme a una concepción sustantiva y totalizadora de la acción política que pretende abarcar la vida social y económica.",
+          "La idea de que la soberanía reside en el pueblo y no en un dirigente o un cuerpo gobernante.",
+        ],
+        answers: [
+          "La idea de que la soberanía reside en el pueblo y no en un dirigente o un cuerpo gobernante.",
+          "Desarrollaron la noción de voluntad general, que no es la suma de las voluntades individuales, sino que procede del interés común.",
+          "Rechazaban la autonomía de la vida civil respecto a la esfera política y propugnaron la subordinación de la primera a la segunda, conforme a una concepción sustantiva y totalizadora de la acción política que pretende abarcar la vida social y económica.",
+        ],
+      },
+      {
+        question:
+          "El pensador inglés John Locke expuso la mayoría de los temas fundamentales tratados posteriormente por los demás pensadores liberales, que fueron:",
+        options: [
+          "Eliminación de las desigualdades sociales; protección de la propiedad comunal; defensa de lo público frente a la ofensiva de lo privado; aseguramiento de los derechos sociales de la población.",
+          "Fundamentación del poder del soberano en principios trascendentes; predominio de una visión estamental de la sociedad; poder ilimitado del soberano; unión del poder temporal y del poder eclesiástico.",
+          "Consideraba que sólo aquellos individuos con un origen aristocrático tenían el derecho a ejercer el poder político.",
+          "Derechos naturales (humanos), libertades individuales y civiles, gobierno representativo, mínimo y constitucional, separación de poderes, ejecutivo subordinado al legislativo, santidad de la propiedad, laicismo y tolerancia religiosa.",
+        ],
+        answers: [
+          "Derechos naturales (humanos), libertades individuales y civiles, gobierno representativo, mínimo y constitucional, separación de poderes, ejecutivo subordinado al legislativo, santidad de la propiedad, laicismo y tolerancia religiosa.",
+        ],
+      },
+      {
+        question:
+          "En el pensamiento de Platón, la “virtud” constituía el fundamento de la vida de la polis. ¿Qué entendía Platón por virtud?",
+        options: [
+          "Identificaba virtud con la observancia de las normas religiosas existentes en la polis.",
+          "Identificaba virtud con conocimiento.",
+          "Identificaba virtud con la observancia de las normas morales existentes.",
+          "Identificaba virtud con las normas de la belleza.",
+        ],
+        answers: ["Identificaba virtud con conocimiento."],
+      },
+      {
+        question:
+          "En su artículo “Maquiavelo y el infierno de los filósofos”, Atilio Borón califica a Maquiavelo como “un revolucionario”. Fundamenta su afirmación en las siguientes afirmaciones: escoge tres de la lista:",
+        options: [
+          "Porque señaló el carácter espurio de la propiedad privada y la riqueza y llamó a construir una sociedad donde primara la propiedad colectiva sobre los medios de producción 5. Porque destacó como tarea fundamental de la república expandir la “virtud” de los ciudadanos, entendiendo por tal la introducción de una noción de virtù desligada de las connotaciones morales de la virtud clásica.",
+          "Porque destacó como tarea fundamental de la república expandir la “virtud” de los ciudadanos, entendiendo por tal la introducción de una noción de virtù desligada de las connotaciones morales de la virtud clásica.",
+          "Porque en su obra rompió con una tradición de dos mil años en la teoría política y en lugar de hablarle a los intelectuales orgánicos de su tiempo –los “cultos” que sabían leer y además lo hacían en la lingua franca de la época, el equivalente al inglés de nuestro tiempo, es decir, el latín– proyectó su discurso hacia las clases subalternas, interpelando al pueblo.",
+          "Porque llamaba a la lucha de liberación nacional contra los invasores extranjeros y el poder de la Iglesia Católica.",
+          "Porque un propósito de su obra era concientizar al pueblo y convertirlo en protagonista principal de la liberación italiana y de su propia auto-emancipación.",
+        ],
+        answers: [
+          "Porque llamaba a la lucha de liberación nacional contra los invasores extranjeros y el poder de la Iglesia Católica.",
+          "Porque en su obra rompió con una tradición de dos mil años en la teoría política y en lugar de hablarle a los intelectuales orgánicos de su tiempo –los “cultos” que sabían leer y además lo hacían en la lingua franca de la época, el equivalente al inglés de nuestro tiempo, es decir, el latín– proyectó su discurso hacia las clases subalternas, interpelando al pueblo.",
+          "Porque destacó como tarea fundamental de la república expandir la “virtud” de los ciudadanos, entendiendo por tal la introducción de una noción de virtù desligada de las connotaciones morales de la virtud clásica.",
+        ],
+      },
+      {
+        question:
+          "Maquiavelo consideró que la república era la mejor forma de gobierno. Fundamentó esta afirmación en las siguientes razones: selecciona tres de la lista:",
+        options: [
+          "Porque permite la eliminación de los antagonismos sociales, que conducen inevitablemente a la inestabilidad y debilitan a Italia frente a la injerencia extranjera.",
+          "Porque la república está apoyada en el pueblo, y el deseo del pueblo es siempre menos lesivo para la libertad que el de los aristócratas.",
+          "Porque establece la alternancia en el gobierno y así impide que un grupo monopolice el poder.",
+          "Porque la forma republicana se asienta en las tradiciones libertarias y democráticas de la organización comunal tradicional de las distintas regiones italianas y tiene por lo tanto un fuerte arraigo en la conciencia popular.",
+          "Porque es la que mejor da cuenta de la naturaleza temporal de la cosa política.",
+        ],
+        answers: [
+          "Porque es la que mejor da cuenta de la naturaleza temporal de la cosa política.",
+          "Porque permite la eliminación de los antagonismos sociales, que conducen inevitablemente a la inestabilidad y debilitan a Italia frente a la injerencia extranjera.",
+          "Porque la forma republicana se asienta en las tradiciones libertarias y democráticas de la organización comunal tradicional de las distintas regiones italianas y tiene por lo tanto un fuerte arraigo en la conciencia popular.",
+        ],
+      },
+      {
+        question:
+          "Para Platón, el gobernante ideal debía ser el “príncipe-filósofo”: Entendía por tal: ",
+        options: [
+          "Ninguna de ellas.",
+          "Una persona (que no necesariamente tendría que ser de origen aristocrático) entrenada en el ejercicio del pensamiento lógico, lo que le permitiría conocer la esencia de los procesos sociales y, por lo tanto, establecer las líneas de acción que fueran objetivamente verdaderas.",
+          "Una persona con un conocimiento profundo de los elementos fundamentales de la cultura tradicional griega, y que se apoye en esas tradiciones para preservar ese legado cultural.",
+          "Un príncipe, de origen aristocrático, al que se le enseñaría filosofía para que tuviera una amplia cultura.",
+        ],
+        answers: [
+          "Una persona (que no necesariamente tendría que ser de origen aristocrático) entrenada en el ejercicio del pensamiento lógico, lo que le permitiría conocer la esencia de los procesos sociales y, por lo tanto, establecer las líneas de acción que fueran objetivamente verdaderas.",
+        ],
+      },
     ]),
     [actualQuestion, SetActualQuestion] = useState(),
     [loading, SetLoading] = useState(false),
