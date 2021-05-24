@@ -898,8 +898,8 @@ export default function Home() {
     if (actualQuestion.answers.length == 1) {
       if (responses[0] == actualQuestion.answers[0]) {
         Swal.fire({
-          title: `${responses[0]}`,
-          text: `Correcto :D`,
+          title: `Correcto :D`,
+          text: `${responses[0]}`,
           icon: "success",
           showCancelButton: false,
           confirmButtonColor: "#3085d6",
@@ -915,7 +915,7 @@ export default function Home() {
         Swal.fire({
           position: "center",
           icon: "error",
-          title: "Incorrecto :c, vuelve a intentarlo.",
+          title: "Ups!, esa no es la respuesta, vuelve a intentarlo.",
           showConfirmButton: false,
           timer: 1500,
         }).then(() => SetLoading(false));
