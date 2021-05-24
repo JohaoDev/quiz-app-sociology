@@ -924,47 +924,59 @@ export default function Home() {
       let counter = 0,
         answersLength = actualQuestion.answers.length;
 
-      responses.forEach((response) => {
-        actualQuestion.answers.forEach((answer) => {
-          if (response == answer) {
-            counter += 1;
+      if (responses.length == answersLength) {
+        responses.forEach((response) => {
+          actualQuestion.answers.forEach((answer) => {
+            if (response == answer) {
+              counter += 1;
 
-            if (counter == answersLength) {
-              Swal.fire({
-                title: "Correcto :D",
-                text: `La motivación es lo que te pone en marcha, el hábito es lo que hace que sigas (Jim Ryun).`,
-                icon: "success",
-                showCancelButton: false,
-                confirmButtonColor: "#3085d6",
-                cancelButtonColor: "#d33",
-                confirmButtonText: "Continuar",
-              }).then((result) => {
-                if (result.isConfirmed) {
-                  SetLoading(false);
-                  loadGame();
-                }
-              });
-            } else {
-              Swal.fire({
-                title: "Ya casi.",
-                text: `Te faltan respuestas, vas por buen camino.`,
-                icon: "warning",
-                showCancelButton: false,
-                confirmButtonColor: "#3085d6",
-                cancelButtonColor: "#d33",
-                confirmButtonText: "Volver",
-              }).then(() => SetLoading(false));
+              if (counter == answersLength) {
+                Swal.fire({
+                  title: "Correcto :D",
+                  text: `La motivación es lo que te pone en marcha, el hábito es lo que hace que sigas (Jim Ryun).`,
+                  icon: "success",
+                  showCancelButton: false,
+                  confirmButtonColor: "#3085d6",
+                  cancelButtonColor: "#d33",
+                  confirmButtonText: "Continuar",
+                }).then((result) => {
+                  if (result.isConfirmed) {
+                    SetLoading(false);
+                    loadGame();
+                  }
+                });
+              } else {
+                Swal.fire({
+                  title: "¡Ya casi!",
+                  text: `Vas por buen camino.`,
+                  icon: "warning",
+                  showCancelButton: false,
+                  confirmButtonColor: "#3085d6",
+                  cancelButtonColor: "#d33",
+                  confirmButtonText: "Volver",
+                }).then(() => SetLoading(false));
+              }
             }
-          }
+          });
         });
-      });
+      } else {
+        Swal.fire({
+          title: "Vuelve a intentarlo.",
+          text: `Seleccionaste ${responses.length} de ${answersLength} respuestas correctas.`,
+          icon: "warning",
+          showCancelButton: false,
+          confirmButtonColor: "#3085d6",
+          cancelButtonColor: "#d33",
+          confirmButtonText: "Volver",
+        }).then(() => SetLoading(false));
+      }
     }
   };
 
   return (
     <div className="w-full h-screen lg:px-32 px-6 ml-auto mr-auto flex flex-col justify-center items-center">
       <h1 className="py-6 uppercase lg:text-2xl text-xl font-bold text-center">
-        Sociology
+        Sociología
       </h1>
       <div>
         <h1 className="py-6 text-justify lg:text-xl text-sm">
@@ -1029,6 +1041,26 @@ export default function Home() {
                 ></path>
               </svg>
             )}
+          </button>
+        </div>
+
+        <div className="m-3">
+          <button
+            onClick={() => loadGame()}
+            className="bg-white text-gray-800 font-bold rounded border-b-2 border-orange-500 hover:orange-green-600 hover:bg-orange-500 hover:text-white shadow-md py-2 px-6 inline-flex items-center"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-5 w-5"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+            >
+              <path
+                fillRule="evenodd"
+                d="M4 2a1 1 0 011 1v2.101a7.002 7.002 0 0111.601 2.566 1 1 0 11-1.885.666A5.002 5.002 0 005.999 7H9a1 1 0 010 2H4a1 1 0 01-1-1V3a1 1 0 011-1zm.008 9.057a1 1 0 011.276.61A5.002 5.002 0 0014.001 13H11a1 1 0 110-2h5a1 1 0 011 1v5a1 1 0 11-2 0v-2.101a7.002 7.002 0 01-11.601-2.566 1 1 0 01.61-1.276z"
+                clipRule="evenodd"
+              />
+            </svg>
           </button>
         </div>
 
